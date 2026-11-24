@@ -1,12 +1,6 @@
 #include <string>
 #include <vector>
 
-void product_range() {
-    int acc = 1;
-    for (int i = 1; i <= 5; ++i) acc *= i;
-    (void)acc;
-}
-
 void center_digit() {
     int n = 98765;
     int digits = 0;
@@ -37,15 +31,14 @@ void binomial_small() {
 }
 
 extern "C" int bright_hollow();
-extern "C" void brisk_grove();
-extern "C" void verdant_meadow();
+extern "C" void silver_crescent();
+extern "C" void ivory_delta();
 
 int main() {
-    product_range();
     center_digit();
     vector_max();
     binomial_small();
-    brisk_grove();
-    verdant_meadow();
+    silver_crescent();
+    ivory_delta();
     return bright_hollow();
 }
